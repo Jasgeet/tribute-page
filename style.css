@@ -1,0 +1,136 @@
+/* Wrapper element */
+
+#main {
+  background-color: #eeeeee;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #333333;
+  margin: 14px 8px 30px 8px;
+}
+
+/* Header section */
+
+header {
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+/* Page title */
+
+#title {
+  font-weight: 700;
+  font-size: 40px;
+  position: absolute;
+  bottom: 66px;
+  margin: 0px;
+}
+
+/* Title description */
+
+header p {
+  margin: 0px;
+  position: absolute;
+  bottom: 20px;
+}
+
+/* Working on image */
+
+#img-div {
+  background-color: #ffffff;
+  padding: 10px 0px 14px 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#img-div figure {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#img-caption {
+  line-height: 24px;
+}
+
+#image {
+  /*properties for responsive images*/
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Timeline section */
+
+#main-content {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-content-title,
+#further-reading {
+  font-size: 18.72px;
+  font-weight: 700;
+  line-height: 28.08px;
+}
+
+#tribute-info {
+  padding: 20px;
+  margin-bottom: 35px;
+}
+
+#timeline-list {
+  font-size: 16px;
+  margin-left: 50px;
+  margin-right: 10px;
+  padding: 0px 5px 0px 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#timeline-list ul {
+  max-width: 550px;
+  margin-left: 0;
+  margin-right: 0;
+  list-style-type: disc;
+}
+
+#timeline-list li {
+  margin-bottom: 16px;
+  line-height: 25px;
+}
+
+.year-number {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Quote section */
+
+#quote {
+  font-style: italic;
+  max-width: 550px;
+  line-height: 24px;
+  padding: 10px 10px 10px 10px;
+  margin: 25px 5px 25px 5px;
+}
+
+#quote-author {
+  margin-top: 15px;
+}
+
+/* Link section */
+
+#further-reading {
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+}
